@@ -1,3 +1,5 @@
+#Python updated script
+
 import requests
 import json
 import random
