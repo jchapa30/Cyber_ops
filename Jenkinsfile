@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/jchapa30/Cyber_ops.git'
+                git branch: 'main', url: 'https://github.com/jchapa30/Cyber_ops.git'
             }
         }
         stage('Build Docker Image') {
